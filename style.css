@@ -42,6 +42,7 @@ p {
     margin: 0;
     padding: 0;
     color: grey;
+    margin-right: 2px;
 }
 
 .mode {
