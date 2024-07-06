@@ -3,12 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>invision</title>
 </head>
 <body>
-    <h1>FEATURE LIST</h1>
+    <div class="game">invision.lol - arsenal</div>
+    <ul class="section">
+        <li>- modes -</li>
+            <p class="mode">Target</p>
+            <p class="desc">> Can unlock on kill or if doing a 1v1 some sort of mode that locks onto one person and doesn't unlock</p>
+            <p class="mode">Regular</p>
+            <p class="desc">> Auto targets the nearest player to cursor or distance wise</p>
+            <p class="mode">Semi Auto</p>
+            <p class="desc">> Will have pre-selected targets that you whitelist</p>
+            <p class="mode">Teamer Mode</p>
+            <p class="desc">> Allows you to not shoot friends or anyone you whitelist so you can team on other people</p>
+            <p class="mode">Fight Back</p>
+            <p class="desc">> When someone shoots you, it will auto select you so you can fight/shoot back</p>
+        <li>- prediction -</li>
+            <p>Grenade Prediction</p>
+            <p class="mode">Item Prediction</p>
+            <p class="desc">> Specifically for Arsenals Object Mode or whatever it's called</p>
+            <p class="mode">Triggerbot Prediction</p>
+            <p class="desc">> Specifically for PF which requires a bit of prediction (based on magnitude and such)</p>
+        <li>- triggerbot -</li>
+            <p class="mode">Triggerbot Shape FOV</p>
+            <p class="desc">> BoxFOV, CircleFOV, HitboxFOV</p>
+            <p class="mode">Increase FOV</p>
+            <p class="desc">> Allows you to pre-set parameters and press a key to increase the FOV by for example 1 and decrease it by 2</p>
+            <p>Auto Melee</p>
+        <li>- silent aim -</li>
+            <p class="mode">Silent Shape FOV</p>
+            <p class="desc">> BoxFov, CircleFOV, HitboxFOV</p>
+            <p>ClosestPoint, ClosestBodyPart, Multi Hit Points</p>
+            <p>Anti Curve</p>
+            <p class="mode">Hit Chance</p>
+            <p class="desc">> 0 - 100% chance of hitting a target</p>
+            <p class="mode">Accuracy</p>
+            <p class="desc">> Silent aim will not be as accurate but it is different from hit chance. Hit chance is the percentage / chance it will hit but accuracy is based on the bullet spread and whether it always redirects to target or follows the normal trajectory of bullets if you were playing legit</p>
+        <li>- aim assist -</li>
+            <p>Disable Out of FOV</p>
+            <p>Aim Assist Shake</p>
+            <p>Smoothing</p>
+            <p>Easing Style</p>
+            <p>Custom Functions</p>
+            <p>Aim Assist Deadzone</p>
+            <p>Hold Keybind/Toggle Keybind</p>            
+        <li>- recoil reduction -</li>
+            <p>Reduces Reduction on X, Y, and Z Axis</p>
+            <p>Recoil Reduction Percentage on Axis</p>
+            <p>No Gun Sway, No Melee Sway</p>            
+            <p class="mode">Silent Gun with FOV</p>
+            <p class="desc">> Makes the gun point towards the target even if you aren't facing towards the person (may be a bit blatant but can be used to look legit)</p>
+        <li>- specific gun -</li>
+            <p>Custom Silent Aim, Aim Assist, and Recoil Reduction</p>
+            <p>Custom Safety Measures</p>
+        <li>- safety measures -</li>
+            <p class="mode">No Ground Shots/No Downsights Check</p>
+            <p class="desc">> Specifically for Arsenal, when player is killed and you are still locked onto them, Aim Assist won't point down to the ground when they are killed</p>
+            <p>Wall Check</p>
+            <p class="mode">Wall Check With Wallbang</p>
+            <p class="desc">> Allows you to Wallbang in PF with Triggerbot, Silent Aim will still shoot behind wallbangable materials, and Aim Assist will still trace</p>
+            <p class="mode">Disable Aim Assist</p>
+            <p class="desc">> Will auto disable aim assist with certain parameters such as not being zoomed in/right clicking and other such conditions</p>
+            <p class="mode">Auto Reload Parameters</p>
+            <p class="desc">> Will autoreload after certain parameters are set such as not shooting for 5 seconds</p>
+            <p class="mode">Max Target Distance</p>
+            <p class="desc">> Will disable if target is too far or too close, depends on parameters set</p>
+            <p class="mode">Panic Keybind</p>
+            <p class="desc">> Based on parameters, will either only disable visuals or will disable everything</p>
+            <p class="mode">Unload Keybind</p>
+            <p class="desc">> Unloads the script</p>
+            <p class="mode">Discord Ping</p>
+            <p class="desc">> Will provide a ping sound when you manually whitelist someone in Semi Auto Mode or Teamers Mode (maybe also Target Mode)</p>
+            <p class="mode">Target Nearest Player Based on Distance or Target Nearest Player to Cursor</p>
+            <p class="desc">>   Off Screen Check</p>
+            <p class="mode">Teleport/Fly Check</p>
+            <p class="desc">> If someone starts flying or exploiting randomly your aim assist won't suddenly trace them</p>
+        <li>- visuals -</li>
+            <p>World Visuals</p>
+            <p>World Brightness</p>
+            <p>Remove Shadows and Sky</p>
+            <p>Ambience, Exposure, and Fog</p>
+            <p>World Time</p>
+            <p>Crosshair</p>
+            <p>Target List</p>
+            <p>Keybind List</p>
+            <p>Target Mode Information Tab</p>
+            <p>Chams, Sounds, and Markers</p>
+            <p>Target Highlight, Gun Highlight, Melee Highlight, and Grenade Highlight</p>
+            <p>Dropped Items Highlight/Notification</p>
+            <p>Healthbar, Name, Armor, Current Weapon, Distance</p>
+            <p>Gradients</p>
+            <p>Fill Box Visuals, Corner Boxes, 2D Box, 3D Box, Tracers, Skeleton</p>
+            <p>Hitcham/Hit Notifications</p>
+            <p>Custom Fonts</p>            
+        <li>- scripts -</li>
+            <p>Autoload Config</p>
+            <p>Save Config</p>
+            <p>Custom Scripts, Sounds, and Visuals/Chams</p>            
+        <li>- skin changer -</li>
+            <p>Custom Skin Changer</p>
+            <p>Game Skins</p>
+            <p>Gun Sounds</p>
+            <p>Character Skin Changer</p>
+        <li>- misc -</li>
+            <p class="mode">Item Swap</p>
+            <p class="desc">> Swaps faster or instantly, based on parameters set</p>
+            <p class="mode">Distance/Range FOV</p>
+            <p class="desc">> Can set custom FOV size based on range for CircleFOV (maybe also BoxFOV)</p>
+    </ul>
     <script>
-        
+        document.querySelectorAll('.mode').forEach(function(mode) {
+            mode.onclick = function() {
+                let desc = this.nextElementSibling;
+                if (desc.style.display === "none" || desc.style.display === "") {
+                    desc.style.display = "block";
+                } else {
+                    desc.style.display = "none";
+                }
+            }
+        });
     </script>
 </body>
+
 </html>
